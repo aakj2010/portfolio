@@ -15,18 +15,19 @@ function Contact() {
         <h2 class="text-center">
           <u>Contact</u>
         </h2>
+        <br /><br />
         <div class="row">
-          <div className="col-lg-6 col-12 contacticon">
+          <div className="col-lg-6 col-12 contacticon ">
             <br />
-            <br />
-            <div className="contact">
+            <div className="contact1 fw-bolder">
+              <p><u>Get in Touch</u></p>
+            </div>
+            <div className="contact fw-bold">
               <p>Phone : +91 8072056095</p>
             </div>
-            <div className="contact">
+            <div className="contact fw-bold">
               <p>Email : dev.jailani@gmail.com</p>
             </div>
-            <br />
-            {/* <Container> */}
 
             <div className="socialicons">
               <a href="">
@@ -65,50 +66,30 @@ function Contact() {
                 </svg>
               </a>
             </div>
-
-          
-
-            {/* <div className="singleCol .social-media-icons">
-                <a href="https://github.com">
-                  <FontAwesomeIcon icon={faGithub} />
-                  {/* <FontAwesomeIcon icon={faEmail} /> */}
-            {/* </a> */}
-            {/* <BsFillAlarmFill /> */}
-
-            {/* <a href="">
-                        <FontAwesomeIcon icon={faEnvelope} />
-                        </a> */}
-            {/* </div> */}
-            {/* </Container> */}
           </div>
 
-          <div className="col-lg-6 col-12">
-            <div class="contact-form d-grid mt-5 justify-content-center align-items-center ">
-              <input
-                class="contact-form rounded-3"
-                type="text"
-                placeholder=" Name"
-              />
-              <br />
-              <input
-                class="contact-form rounded-3"
-                type="email"
-                placeholder=" Email"
-              />
-              <br />
-              <textarea
-                class="contact-form rounded-3"
-                name=""
-                id=""
-                cols="30"
-                rows="5"
-              ></textarea>
-              <br />
-              <a class="btn btn-primary" href="#home" className="button">
-                {" "}
-                Send{" "}
-              </a>
+          <div class="col-lg-5 col-12">
+          <br />  <br />
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Enter Name</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Name here" />
             </div>
+
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1"
+                placeholder="name@example.com" />
+            </div>
+
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <div>
+              <a className="btn btn-primary" href="#home"> Send </a>
+            </div>
+
           </div>
         </div>
       </div>

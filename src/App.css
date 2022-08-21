@@ -129,16 +129,20 @@ section {
 
 
 /* Contact Start */
+.contact1{
+    font-size: 2rem;
+    padding: 1rem;
+}
 .contact p{
     font-size: 1.5rem;
-    font-style: italic;
+    /* font-style: italic; */
     font-family: sans-serif;
     padding: 1rem;
     max-width: 450px;
 }
 .contacticon{
   max-width: 450px;
-  
+  /* border: 1px solid black; */
   margin: 0 auto;
 }
 

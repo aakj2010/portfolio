@@ -1,8 +1,10 @@
 import React from 'react'
-import undrawHome from './undrawHome.png';
+// import undrawHome from './undrawHome.png';
 
 function Home() {
   return (
+    <>
+    <br /><br /><br /><br /><br />
     <section class="home" id="home">
         <div class="container">
             <div class="row">
@@ -11,14 +13,14 @@ function Home() {
                         <br /><br /><br /><br /><br /><br />
                         <h1>Hi, <br /><span>I am</span><span class="head_title-color"> Ak Jailani</span><br /><span>FullStack Devoloper</span> </h1>
                         <br />
-                        <a class="btn btn-primary" href="#contact" className="button"> Contact </a>
+                        <a className="btn btn-primary" href="#contact"> Contact </a>
                     </div>
                 </div>
 
                 <div class="col-lg-6 col-12">
                     <br /><br /><br />
-                    <img src={undrawHome.png} alt="" />
-                 {/* <svg id="a154b3ae-224e-4b43-86b8-0ffeb27982c5" data-name="Layer 1"
+                    {/* <img src={undrawHome.png} alt="" /> */}
+                 <svg id="a154b3ae-224e-4b43-86b8-0ffeb27982c5" data-name="Layer 1"
                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1144 637">
                         <title>working remotely</title>
                         <path
@@ -178,11 +180,14 @@ function Home() {
                                 d="M190.09,602.63a10.36,10.36,0,0,0-1.25.09c-.64-.69-1.28-1.43-1.93-2.15a12.4,12.4,0,0,1,15.6,12c0,.42,0,.83-.06,1.24A12.42,12.42,0,0,0,190.09,602.63Z"
                                 transform="translate(-28 -131.5)" />
                         </g>
-                    </svg> */}
+                    </svg>
                 </div>
             </div>
         </div>
     </section>
+    
+    </>
+   
   )
 }
 
