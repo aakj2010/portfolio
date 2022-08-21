@@ -10,7 +10,7 @@ function NavBar() {
                 <!-- Avatar image -->
                 <img class="avatar__image" src="akj3.png" />
             </div> */}
-            <a class="navbar-brand" href="#">  AK Jailani A</a>
+            <a class="navbar-brand" href="#">  AK Jailani</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
