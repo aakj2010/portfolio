@@ -4,14 +4,14 @@ import React from 'react'
 function Home() {
   return (
     <>
-    <br /><br /><br /><br /><br />
+    <br /><br /><br />
     <section class="home" id="home">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-12">
                     <div>
                         <br /><br /><br /><br /><br /><br />
-                        <h1>Hi, <br /><span>I am</span><span class="head_title-color"> Ak Jailani</span><br /><span>FullStack Devoloper</span> </h1>
+                        <h1>Hi, <br /><span className='Iam'>I'm</span><span class="head_title-color"> Ak Jailani</span><br /><span>FullStack Devoloper</span> </h1>
                         <br />
                         <a className="btn btn-primary" href="#contact"> Contact </a>
                     </div>
