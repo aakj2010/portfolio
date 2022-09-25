@@ -316,7 +316,7 @@ function About() {
             </h3>
             <br />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              MERN stack Devoloper adipisicing elit. Facere
               commodi doloremque distinctio alias, porro veritatis quo nam
               explicabo non sit aperiam ullam atque delectus nulla modi, magnam
               beatae quasi, vitae deleniti? Sunt eius impedit, debitis tempore,
